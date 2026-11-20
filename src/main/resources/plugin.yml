@@ -1,0 +1,13 @@
+name: MCPVPDamage
+version: ${version}
+main: club.mcpvp.damage.MCPVPDamage
+api-version: '26.2'
+description: Configurable end crystal and respawn anchor damage.
+commands:
+  mcpvpdamage:
+    description: Set or view the damage multipliers
+    usage: /mcpvpdamage <set crystal|anchor <value>|get|reload>
+    permission: mcpvpdamage.admin
+permissions:
+  mcpvpdamage.admin:
+    default: op

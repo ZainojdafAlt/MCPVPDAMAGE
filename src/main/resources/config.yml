@@ -1,0 +1,20 @@
+# Damage values are applied to the BASE explosion damage.
+# Armor / Blast Protection / Resistance still reduce it afterwards, like vanilla.
+#
+# final base damage = max(vanilla damage * multiplier, min-damage)
+# (1 damage = half a heart)
+
+players-only: true
+
+crystal:
+  enabled: true
+  multiplier: 2.0
+  min-damage: 0.0
+
+anchor:
+  enabled: true
+  multiplier: 2.0
+  min-damage: 0.0
+
+messages:
+  reloaded: "&aMCPVPDamage config reloaded."
